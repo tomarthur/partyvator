@@ -1,0 +1,36 @@
+# Partyvator
+## Physical Computing Midterm Fall 2012
+
+Pop-up movement controlled music & light party in an elevator. 
+
+### Status
+
+November 12 2012 
+
+This code & guide reflects the project as of the time it was presented for a physical computing class at NYU's Interactive Telecommunications Program.
+
+__Video here.__
+
+
+### Physical Components
+ - [ADXL335 triple-axis accelerometer](http://www.adafruit.com/products/163)
+ - [Digital Addressable RBG LED Strip](http://www.adafruit.com/products/306)
+ - 2x [Arduino Uno or equivalent](http://arduino.cc/en/Main/ArduinoBoardUno)
+ - Battery operated speaker
+ - Battery power supply for lights (such as 6v lantern batteries & a voltage regulator)
+ - Computer running Processing
+
+### Known Issues
+  - Arduino won't control full 5m LPD8806 strip with current noise code
+  - No time-out function to prevent runaway sequences when elevator motion end isn't detected
+
+### Next Steps
+ - Allow for random or time-of-day based music/light segments
+ - Update Arduino code to be able to run a full 5m strip with noise based lighting effects
+ - Write code for elevator movement logic for Arduino
+ - Arduino to Arduino serial communication (eliminate multiple USB connections to computer)
+ - Eliminate computer from experience using MP3 shield for Arduino [investigating rMP3](http://www.roguerobotics.com/products/electronics/rmp3)
+
+ ### Source code attribution 
+ [Adafruit Arduino library for LPD8806](https://github.com/adafruit/LPD8806)
+ [Smooth flowing patterns for an LPD8806 by happyinmotion (jez.weston@yahoo.com)](http://forums.adafruit.com/viewtopic.php?f=47&t=24554)
