@@ -1,7 +1,8 @@
 # Partyvator
 ## Physical Computing Midterm Fall 2012
 
-Partyvator is a pop-up music & light experience that takes place between floors. It's a simple and unexpected way to make the elevator experience better.
+Partyvator is a pop-up music & light experience that takes place between floors. 
+It's a simple and unexpected way to make the elevator experience better.
 
 [See it in action on vimeo](http://vimeo.com/tomarthur/partyvator)
 
