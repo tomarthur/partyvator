@@ -13,8 +13,6 @@ November 12 2012
 
 This code & guide reflects the project as of the time it was presented for a physical computing class at NYU's Interactive Telecommunications Program.
 
-__Video here.__
-
 
 ### Physical Components
  - [ADXL335 triple-axis accelerometer](http://www.adafruit.com/products/163)
